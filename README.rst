@@ -29,13 +29,14 @@ Install directly from PyPI:
 pip install jalali-core
 ```
 
-###Usage
+Usage
+------------
+
+First, import the main classes and constant:
 
 ---python
-First, import the main classes and constant:
-```
 from jalali_core import GregorianToJalali, JalaliToGregorian, j_days_in_month
-
+```
 
 1. Gregorian to Jalali
 
