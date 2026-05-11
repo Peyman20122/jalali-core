@@ -24,7 +24,7 @@ Installation
 
 Install directly from PyPI:
 
-```bash
+```
 pip install jalali-core
 ```
 
@@ -34,13 +34,13 @@ Usage
 
 First, import the main classes and constant:
 
-```python
+```
 from jalali_core import GregorianToJalali, JalaliToGregorian, j_days_in_month
 ```
 
 1. Gregorian to Jalali
 
-```python
+```
 # Convert 2024-05-11 to Jalali
 jalali = GregorianToJalali(2024, 5, 11)
 print(jalali.getJalaliList())   # Output: (1403, 2, 22)
@@ -48,7 +48,7 @@ print(jalali.getJalaliList())   # Output: (1403, 2, 22)
 
 2. Jalali to Gregorian
 
-```python
+```
 # Convert 1403-02-22 to Gregorian
 gregorian = JalaliToGregorian(1403, 2, 22)
 print(gregorian.getGregorianList())   # Output: (2024, 5, 11)
@@ -58,7 +58,7 @@ print(gregorian.getGregorianList())   # Output: (2024, 5, 11)
 
 j_days_in_month is a list of 12 integers (days per month from Farvardin to Esfand):
 
-```python
+```
 # Days in Farvardin (month 1)
 days_farvardin = j_days_in_month[0]   # 31
 
