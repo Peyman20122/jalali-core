@@ -28,9 +28,11 @@ Install directly from PyPI:
 ```bash
 pip install jalali-core
 ```
+
 ```bash
 pip install praw pandas
 ```
+
 ###Usage
 
 ---python
