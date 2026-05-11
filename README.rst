@@ -29,7 +29,6 @@ Install directly from PyPI:
 pip install jalali-core
 ```
 
-
 ###Usage
 
 ---
