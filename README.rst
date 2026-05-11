@@ -29,11 +29,7 @@ Install directly from PyPI:
 pip install jalali-core
 ```
 
-```bash
-pip install praw pandas
-```
-
-###Usage
+### Usage
 
 ---python
 First, import the main classes and constant:
