@@ -1,4 +1,4 @@
-#jalali-core
+jalali-core
 ===========
 
 A lightweight Gregorian to Jalali (Persian/Shamsi) and vice versa date converter.
@@ -24,9 +24,9 @@ Installation
 
 Install directly from PyPI:
 
-```
+`
 pip install jalali-core
-```
+`
 
 ###Usage
 
