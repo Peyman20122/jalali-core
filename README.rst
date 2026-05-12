@@ -25,7 +25,7 @@ Installation
 Install directly from PyPI:
 
 
-.. code-block:: python
+```code-block:: python
 pip install jalali-core
 
 
@@ -34,7 +34,7 @@ Usage
 
 First, import the main classes and constant:
 
----python
+```python
 from jalali_core import GregorianToJalali, JalaliToGregorian, j_days_in_month
 ```
 
