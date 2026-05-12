@@ -25,7 +25,7 @@ Installation
 Install directly from PyPI:
 
 
-```bash
+.. code-block:: python
 pip install jalali-core
 
 
